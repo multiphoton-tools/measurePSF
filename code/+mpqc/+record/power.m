@@ -185,7 +185,7 @@ classdef power < handle
 
             obj.makeFigWindow
             obj.laserWavelength=out.wavelength; % here since it triggers a figure reset
-            obj.beamIndex=out.beamIndex;
+            obj.beamIndex=1; %  TODO -- hard-coded for now. OK if system has only one beam
 
         end % constructor
 
